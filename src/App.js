@@ -1,28 +1,20 @@
-import {useState} from "react";
-import {Link, Route, Routes} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
+import Layout from "./Layout/Layout";
 import Home from "./pages/Home/Home";
-import Catalog from "./pages/Catalog/Catalog";
 import Register from "./pages/Register/Register";
+
+import './styles/style.scss'
+
 
 
 function App() {
-
-
-
   return (
     <div className="App">
-
-
-        <div style={{display: "flex", columnGap: "20px"}}>
-            <Link to='/'>home</Link>
-            <Link to='/catalog'>catalog</Link>
-            <Link to='/register'>register</Link>
-        </div>
-
         <Routes>
-            <Route path='/' element={<Home />}/>
-            <Route path='/catalog' element={<Catalog/>}/>
-            <Route path='/register' element={<Register/>}/>
+            <Route path={''} element={<Layout/>}>
+                <Route path={'/'} element={<Home/>}/>
+            </Route>
+            <Route path={'register'} element={<Register/>}/>
         </Routes>
     </div>
   );

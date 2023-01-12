@@ -1,29 +1,14 @@
-import React, {useContext, useState} from 'react';
-import {CustomContext} from "../../utils/Context";
+import React from 'react';
+import Begin from "./Begin/Begin";
+import AllProducts from "./AllProducts/AllProducts";
+
 
 const Home = () => {
-
-    const {count, setCount} = useContext(CustomContext)
-
-
-
     return (
-        <div>
-            <br/>
-            <br/>
-
-            {count}
-
-            <br/>
-            <br/>
-
-            <button type='button' onClick={() => setCount(prev => prev + 1)}>Увеличить на 1</button>
-
-            <br/>
-            <br/>
-
-            asdasdsad
-        </div>
+        <main>
+            <Begin/>
+            <AllProducts/>
+        </main>
     );
 };
 

@@ -1,17 +1,16 @@
-import React, {useContext} from 'react';
-import {CustomContext} from "../../utils/Context";
+import React from 'react';
+
 
 
 const Catalog = () => {
 
-    const {count} = useContext(CustomContext)
+
 
 
 
     return (
         <div>
-            {count}
-            catalog
+
         </div>
     );
 };

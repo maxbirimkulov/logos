@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "email": "assadasd@mail.ru",
+      "password": "$2a$10$6a0ulZI6/4KjMtsDDuT8aOX0Spn.Zvs8zDj.NnX67UfzR1TG6orHW",
+      "id": 1
+    },
+    {
+      "email": "askar@mail.ru",
+      "password": "$2a$10$oUrWbgo78nuPgMjrZVivKe4rZ5fzEsQ.ZbvzA0y/4GWPzSRDR0SJ.",
+      "id": 2
+    },
+    {
+      "email": "askar1@mail.ru",
+      "password": "$2a$10$Kdc0hpKRhaSC9Y7S6p162e.qMGK7HUG1.EUtlu6p2ZdCIBQuMZIse",
+      "id": 3
+    },
+    {
+      "email": "aimana@mail.ru",
+      "password": "$2a$10$NsTj8mTcbOWhdZ/rjHjBw../n1DCcj6uFUfyqeuUnpVmVFXSDTC.G",
+      "id": 4
+    },
+    {
+      "email": "max123@mail.ru",
+      "password": "$2a$10$0zYHpPLSpg0vqPEM9hO2/OUximPgwxCm3Fi2/3GwXxOWrblHCcq1C",
+      "id": 5
+    },
+    {
+      "email": "muslim@mail.ru",
+      "password": "$2a$10$BUGoLNkK6pN.eSniGrPQJ.O8aa9PBgN6xp6nAihwOqUQ7HvWlNMWm",
+      "id": 6
+    },
+    {
+      "email": "malik@mail.ru",
+      "password": "$2a$10$MIJnILTTLZJFOjrPdmWZsO4LToRskm8hCPt5F.x3eVii/Ai.pckuK",
+      "id": 7
+    }
+  ]
+}

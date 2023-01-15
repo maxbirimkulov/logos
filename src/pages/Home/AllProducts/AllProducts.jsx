@@ -1,9 +1,9 @@
 import React from 'react';
+import ProductsFilter from "../../../components/ProductsFilter/ProductsFilter";
 
 const AllProducts = () => {
     return (
         <section className="products">
-
             <ul className="products__list">
                 <li className="products__item active">
                     Холодные закуски
@@ -32,6 +32,10 @@ const AllProducts = () => {
                     Напитки
                 </li>
             </ul>
+            <ProductsFilter/>
+            <ProductsFilter/>
+            <ProductsFilter/>
+            <ProductsFilter/>
         </section>
     );
 };

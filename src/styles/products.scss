@@ -40,4 +40,74 @@
       }
     }
   }
+  &__filter {
+    padding: 50px 0;
+    border-bottom: 1px solid #ffffff80;
+    &-title {
+      padding-left: 91px;
+      font-weight: 700;
+      font-size: 32px;
+      text-transform: uppercase;
+      margin-bottom: 60px;
+      span {
+        position: relative;
+        &::before {
+          content: '';
+          width: 4px;
+          height: 100%;
+          background: #618967;
+          position: absolute;
+          top: 0;
+          left: -20px;
+        }
+      }
+    }
+  }
+
+  &__card {
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    box-shadow: 0 30px 45px rgba(43, 40, 40, 0.6);
+    border-radius: 10px;
+    &-img {
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+      object-fit: cover;
+    }
+    &-info {
+      padding: 14px 20px 18px;
+    }
+    &-name {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &-title {
+      font-weight: 700;
+      font-size: 22px;
+    }
+    &-weight {
+      font-weight: 400;
+      font-size: 12px;
+    }
+    &-desc {
+      font-weight: 400;
+      font-size: 13px;
+      color: #CFCFCF;
+      margin: 5px 0 15px;
+    }
+    &-buy {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &-price {
+      font-weight: 600;
+      font-size: 20px;
+    }
+    &-btn {
+      font-weight: 600;
+      font-size: 14px;
+      column-gap: 14px !important;
+    }
+  }
 }

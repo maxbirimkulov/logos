@@ -58,4 +58,8 @@
     cursor: pointer;
     z-index: 10;
   }
+  &__create{
+    text-align: right;
+    margin-bottom: 30px;
+  }
 }

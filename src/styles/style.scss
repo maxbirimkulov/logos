@@ -21,6 +21,13 @@ body {
   padding: 0 20px;
 }
 
+.layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
 
 @import "header";
 @import "begin";
@@ -29,3 +36,5 @@ body {
 @import "map";
 @import "footer";
 @import "form";
+@import "sales";
+@import "delivery";

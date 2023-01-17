@@ -32,10 +32,9 @@ const AllProducts = () => {
                     Напитки
                 </li>
             </ul>
-            <ProductsFilter/>
-            <ProductsFilter/>
-            <ProductsFilter/>
-            <ProductsFilter/>
+            <ProductsFilter title='ХОЛОДНЫЕ ЗАКУСКИ'/>
+            <ProductsFilter title='ГОРЯЧИЕ ЗАКУСКИ'/>
+            <ProductsFilter title='Мясные блюда'/>
         </section>
     );
 };

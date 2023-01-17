@@ -17,7 +17,7 @@ const Header = () => {
             email: ''
         })
         localStorage.removeItem('user')
-        navigate('/register')
+        navigate('/login')
     }
 
     return (
@@ -26,7 +26,10 @@ const Header = () => {
                 <nav className="header__nav">
                     <div className="header__right">
                         <h1 className="header__title">
-                            LOGOS
+                            <Link to='/'>
+                                LOGOS
+                            </Link>
+
                         </h1>
                         <div className="header__content">
                             <div className="header__search">

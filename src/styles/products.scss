@@ -41,14 +41,14 @@
     }
   }
   &__filter {
-    padding: 50px 0;
     border-bottom: 1px solid #ffffff80;
+    padding-bottom: 50px;
     &-title {
-      padding-left: 91px;
+      padding: 50px 0 60px 91px;
       font-weight: 700;
       font-size: 32px;
       text-transform: uppercase;
-      margin-bottom: 60px;
+
       span {
         position: relative;
         &::before {

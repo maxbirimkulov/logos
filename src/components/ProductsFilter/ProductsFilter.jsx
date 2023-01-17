@@ -9,12 +9,11 @@ import "swiper/css/pagination";
 import card from '../../assets/images/card.png'
 import {BsCart3} from 'react-icons/bs'
 import { Autoplay } from "swiper";
-const ProductsFilter = () => {
+import Title from "../Title/Title";
+const ProductsFilter = ({title}) => {
     return (
         <div className="products__filter">
-            <h2 className="products__filter-title">
-                <span>ХОЛОДНЫЕ ЗАКУСКИ</span>
-            </h2>
+            <Title title={title}/>
             <div className="products__filter-sliders">
                 <Swiper
                     slidesPerView={4}

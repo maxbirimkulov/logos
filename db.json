@@ -1,4 +1,71 @@
 {
+  "products":[
+    {
+      "id": 1,
+      "image": "./assets/products/menu1.png",
+      "title": "Ягненок",
+      "description": "Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком",
+      "price": 620,
+      "weight": 210,
+      "protein": 17.23,
+      "fats": 7.63,
+      "carbohydrates": 22.35,
+      "calories": 234,
+      "category": "Мясные блюда"
+    },
+    {
+      "id": 2,
+      "image": "./assets/products/menu2.png",
+      "title": "Индейка",
+      "description": "Фаршированный гречневой кашей, \nкурагой, апельсином и зеленым яблоком",
+      "price": 450,
+      "weight": 300,
+      "protein": 20,
+      "fats": 8,
+      "carbohydrates": 30,
+      "calories": 250,
+      "category": "Гриль меню"
+    },
+    {
+      "id": 3,
+      "image": "./assets/products/menu3.png",
+      "title": "Гусь",
+      "description": "Фаршированный яблоками",
+      "price": 7900,
+      "weight": 250,
+      "protein": 30,
+      "fats": 6,
+      "carbohydrates": 19,
+      "calories": 300,
+      "category": "Рыбные блюда"
+    },
+    {
+      "id": 4,
+      "image": "./assets/products/menu4.png",
+      "title": "Утка",
+      "description": "Фаршированная рисом, курагой и айвой",
+      "price": 3230,
+      "weight": 260,
+      "protein": 22,
+      "fats": 8,
+      "carbohydrates": 21,
+      "calories": 200,
+      "category": "Гриль меню"
+    },
+    {
+      "id": 5,
+      "image": "https://snob.ru/i/indoc/9e/blog_entry_184157.jpg",
+      "title": "Красные плоды",
+      "description": " В начале этого года Mugaritz, удостоенный двух мишленовских звезд, полностью сгорел",
+      "price": 12000,
+      "weight": 50,
+      "protein": 10,
+      "fats": 3,
+      "carbohydrates": 18,
+      "calories": 150,
+      "category": "Холодные блюда"
+    }
+  ],
   "users": [
     {
       "email": "assadasd@mail.ru",

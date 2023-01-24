@@ -12,6 +12,22 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  &__label{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+  }
+  &__select{
+    margin: 10px 0 30px;
+    color: black;
+    height: 40px;
+    width: 170px;
+  }
+  &__block{
+    display: flex;
+    column-gap: 10px;
+  }
   &__email{
     margin-bottom: 30px;
     cursor: pointer;

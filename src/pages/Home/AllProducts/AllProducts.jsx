@@ -1,36 +1,31 @@
-import React from 'react';
+import React, {useEffect, useContext} from 'react';
 import ProductsFilter from "../../../components/ProductsFilter/ProductsFilter";
+import {useNavigate} from "react-router-dom";
+import {menuData} from "../../../utils/menuData";
+
+import {CustomContext} from "../../../utils/Context";
+
 
 const AllProducts = () => {
+
+    const navigate = useNavigate()
+    const { getAllProducts} = useContext(CustomContext);
+
+    useEffect(() => {
+        getAllProducts()
+    },[])
+
+
     return (
         <section className="products">
             <ul className="products__list">
-                <li className="products__item active">
-                    Холодные закуски
-                </li>
-                <li className="products__item">
-                    Горячие закуски
-                </li>
-                <li className="products__item">
-                    Мясные блюда
-                </li>
-                <li className="products__item">
-                    Супы
-                </li>
-                <li className="products__item">
-                    Рыбные блюда
-                </li>
-                <li className="products__item">
-                    Гриль меню
-                </li>
-                <li className="products__item">
-                    Фирменные блюда
-
-                </li>
-                <li className="products__item">
-
-                    Напитки
-                </li>
+                {
+                    menuData.map(item => (
+                        <li key={item.en} className="products__item" onClick={() => navigate(`/catalog/${item.en}`)}>
+                            {item.ru}
+                        </li>
+                    ))
+                }
             </ul>
             <ProductsFilter title='ХОЛОДНЫЕ ЗАКУСКИ'/>
             <ProductsFilter title='ГОРЯЧИЕ ЗАКУСКИ'/>

@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {BsCart3} from "react-icons/bs";
 import {useNavigate} from "react-router-dom";
+import {CustomContext} from "../../utils/Context";
 
 const Card = ({item}) => {
 
     const navigate = useNavigate()
+
+    const {addBasket} = useContext(CustomContext)
+
     return (
         <div className="products__card">
             <img onClick={() => navigate(`/product/${item.id}`)} src={`${item.image[0] === '.' ? '../' : ''}${item.image}`} alt={item.title} className="products__card-img"/>
@@ -24,7 +28,7 @@ const Card = ({item}) => {
                     <p className="products__card-price">
                         {item.price} ₽
                     </p>
-                    <button className="products__card-btn header__btn">
+                    <button type='button' onClick={() => addBasket(item)} className="products__card-btn header__btn">
                         В корзину
                         <BsCart3 size={20}/>
                     </button>

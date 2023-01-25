@@ -7,9 +7,18 @@ export const CustomContext = createContext()
 export const Context = (props) => {
 
     const [products, setProducts] = useState([])
+
+    const [basket, setBasket] = useState([])
+
     const [user, setUser] = useState({
         email : ''
     })
+
+
+    const addBasket = (product) => {
+        setBasket(prev => [...prev, product])
+    }
+
 
     useEffect(() => {
         if (localStorage.getItem('user') !== null){
@@ -32,7 +41,9 @@ export const Context = (props) => {
         setUser,
         products,
         setProducts,
-        getAllProducts
+        getAllProducts,
+        basket,
+        addBasket
     }
 
     return <CustomContext.Provider value={value}>

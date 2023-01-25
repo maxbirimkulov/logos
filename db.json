@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "image": "./assets/products/menu1.png",
+      "image": "../assets/products/menu1.png",
       "title": "Ягненок",
       "description": "Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком",
       "price": 620,
@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "image": "./assets/products/menu2.png",
+      "image": "../assets/products/menu2.png",
       "title": "Индейка",
       "description": "Фаршированный гречневой кашей, \nкурагой, апельсином и зеленым яблоком",
       "price": 450,
@@ -28,7 +28,7 @@
     },
     {
       "id": 3,
-      "image": "./assets/products/menu3.png",
+      "image": "../assets/products/menu3.png",
       "title": "Гусь",
       "description": "Фаршированный яблоками",
       "price": 7900,
@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "image": "./assets/products/menu4.png",
+      "image": "../assets/products/menu4.png",
       "title": "Утка",
       "description": "Фаршированная рисом, курагой и айвой",
       "price": 3230,

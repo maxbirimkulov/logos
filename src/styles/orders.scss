@@ -1,0 +1,31 @@
+.orders{
+  &__contact{
+
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;
+    padding: 30px 30px 57px;
+
+    &-label{
+      display: flex;
+      margin-top: 30px;
+      column-gap: 15px;
+    }
+    &-title{
+      font-family: 'Gilroy',sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+
+    }
+    &-input{
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 20px 30px;
+      font-family: 'Gilroy',sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      background: transparent;
+    }
+  }
+}

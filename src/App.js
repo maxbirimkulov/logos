@@ -11,6 +11,7 @@ import Catalog from "./pages/Catalog/Catalog";
 import Product from "./pages/Product/Product";
 import AddProduct from "./pages/AddProduct/AddProduct";
 import Basket from "./pages/Basket/Basket";
+import Orders from "./pages/Orders/Orders";
 
 
 
@@ -26,6 +27,7 @@ function App() {
                 <Route path={'/catalog/:category'} element={<Catalog/>}/>
                 <Route path={'/product/:id'} element={<Product/>}/>
                 <Route path={'/product/add'} element={<AddProduct/>}/>
+                <Route path={'/orders'} element={<Orders/>}/>
 
             </Route>
             <Route path={'register'} element={<Register/>}/>
